@@ -9,12 +9,12 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <br />
 
 # File organization
-1. Create a folder for your project in some suitable location on your computer
-2. Create relevant subfolders according to some best-practice outline.
+1. :computer:Create a folder for your project in some suitable location on your computer
+2. :computer:Create relevant subfolders according to some best-practice outline.
 <details>
 <summary>:key: Click to see a suggest folder structure</summary>
 ```
-my_project
+:open_file_folder:my_project
 |─ bin
 |- doc
 |- data
@@ -23,7 +23,6 @@ my_project
 |     |- 2016-11-16
 |- results
 |- src
-
 ```
 </details>  
 <br />
