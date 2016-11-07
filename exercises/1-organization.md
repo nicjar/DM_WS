@@ -14,7 +14,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <details>
 <summary>:key: Click to see a suggest folder structure</summary>
 ```
-:open_file_folder:my_project
+:open_file_folder: my_project
 |─ bin
 |- doc
 |- data
