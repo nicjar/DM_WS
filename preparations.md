@@ -39,9 +39,9 @@ If you haven't got R and RStudio installed already, download and install from:
     * Skip _Connect an account_
     * _Mercurial not found_ - select _Download an embedded version..._
     * You might be asked some more questions
-			* "Install tools" - select defaults
-			* "Install global .ignore file" - Yes
-			* "Load SSH key?" - Cancel
+    	* "Install tools" - select defaults
+	* "Install global .ignore file" - Yes
+	* "Load SSH key?" - Cancel
 
 ## GitHub
 Go to https://github.com/join, and register for an account. Create a free account.
