@@ -11,7 +11,7 @@ Niclas Jareborg
 
 ## Outline
 
-- [Introduction to data management]()
+- [Introduction to data management](slides/Data_Management_slides.html)
 - File organisation best-practices
     - [Hands-on session](exercises/1-organization.md)
 - Version control — introduction to git and GitHub
