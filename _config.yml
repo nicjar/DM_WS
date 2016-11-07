@@ -15,10 +15,16 @@ url:  'https://nicjar.github.io/DM_WS'
 
 markdown: kramdown
 
+# pygments: true
+highlighter: rouge
+
 sass:
   sass_dir: css
   style:    expanded
 
+# enable emojis
+gems:
+  - jemoji
 
 
 exclude:
