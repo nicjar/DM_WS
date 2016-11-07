@@ -1,13 +1,13 @@
 ###########
 # site.url, site.title
 
-title: 'Jekyll Bootstrap Theme'
+title: 'Data Management workshop'
 
-## note: 
+## note:
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path: /jekyll-bootstrap-theme
-url:  'http://henrythemes.github.io/jekyll-bootstrap-theme'
+path: /DM_WS
+url:  'http://nacjar.github.io/DM_WS'
 
 
 ########
@@ -27,4 +27,3 @@ exclude:
 
 safe: true
 lsi: false
-
