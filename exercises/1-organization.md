@@ -13,8 +13,8 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 2. Create relevant subfolders according to some best-practice outline.
 <details>
 <summary>:key: Click to see a suggest folder structure</summary>
-my_project
 ```
+my_project
 |─ bin
 |- doc
 |- data
