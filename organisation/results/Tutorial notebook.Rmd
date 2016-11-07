@@ -1,0 +1,87 @@
+---
+title: "Tutorial notebook"
+author: "Niclas Jareborg"
+date: "24 augusti 2016"
+output: 
+  html_document: 
+    toc: yes
+---
+
+# Reading in data
+
+Before beginning the analysis, let's get the data into R. Assuming R is installed on your computer, the first thing we want to do is create a workspace. 
+
+The first objective is to convert the ascii community data file to an R object. 
+
+```{r tidy=TRUE, prompt=TRUE}
+# raw_data_file <- 'data/raw/1992-01-01/bryceveg.R' # relative to where the project .Rproj file is!
+raw_data_file <- '../data/raw/1992-01-01/bryceveg.R' # relative to where the .Rmd file is!
+veg <- read.table(raw_data_file,header=TRUE,row.names=1)
+```
+
+# Data set characteristics
+Now that we've got the data into a data frame, we can examine the characteristics of the distribution of the data. First, we need to know there are 160 plots and 169 species in the data set. R could tell us that if we asked:
+
+```{r tidy=TRUE, prompt=TRUE}
+dim(veg)          # to get the dimensions of the data set
+names(veg)        # to get the columns names (species in our case)
+row.names(veg)    # to get the row names (plots in our case)
+```
+
+# Transformation of Vegetation Data
+```{r tidy=TRUE, prompt=TRUE}
+cover <- veg              # to create a copy of the veg data frame
+cover[veg==1] <- 3.0      # to convert class 1 to midpoint of 3.0 percent
+cover[veg==2] <- 15.0     # to convert class 2 to midpoint of 15.0 percent
+cover[veg==3] <- 37.5     # to convert class 3 to midpoint of 37.5 percent
+cover[veg==4] <- 62.5     # to convert class 4 to midpoint of 62.5 percent
+cover[veg==5] <- 85.0     # to convert class 5 to midpoint of 85.0 percent
+cover[veg==6] <- 97.5     # to convert class 6 to midpoint of 97.5 percent
+cover[1:15,1:10]
+```
+
+# How many plots does each species occur in?
+```{r tidy=TRUE, prompt=TRUE}
+# to get number of presences for each species.
+# Note that the first part of the function 
+# call (veg>0) evaluates to TRUE/FALSE or 1/0), 
+# and it is the sum of ones and zeros that 
+# gets calculated.
+spc_pres<-apply(veg>0,2,sum)   
+
+# to see a plot of the cumulative empirical density 
+# function (CEDF) for species presences
+plot(sort(spc_pres))
+```
+
+
+# Old stuff
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+

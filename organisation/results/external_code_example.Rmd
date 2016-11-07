@@ -1,0 +1,25 @@
+---
+title: "External code example"
+author: "Niclas Jareborg"
+date: "19 augusti 2016"
+output: html_document
+---
+
+
+# read chunk (does not run code)
+```{r echo=FALSE}
+library(knitr)
+read_chunk('example.R')
+```
+
+# run the variablesXY chunk and use the variables it creates
+```{r first}
+<<variablesXY>>
+head(data.frame(x,y))
+
+```
+
+# run the plotXY chunk and create the plot
+```{r second}
+<<plotXY>>
+```
