@@ -9,8 +9,10 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <br />
 
 # File organization
-1. :computer:Create a folder for your project in some suitable location on your computer
-2. :computer:Create relevant subfolders according to some best-practice outline.
+:computer:Create a folder for your project in some suitable location on your computer
+<br />
+
+:computer:Create relevant subfolders according to some best-practice outline.
 <details>
 <summary>:key: Click to see a suggest folder structure</summary>
 ```
@@ -26,7 +28,8 @@ my_project
 ```
 </details>  
 <br />
-3. :computer:Create a README.txt (or README.md) file in each directory that describes the purpose of the directory.
+
+:computer:Create a README.txt (or README.md) file in each directory that describes the purpose of the directory.
 <details>
 <summary>:key: Click to see an example</summary>
 A README.md for a **results** directory:
