@@ -10,15 +10,15 @@ To make the workshop run smoothly, you need to have a couple of programs install
 ## R and RStudio
 If you haven't got R and RStudio installed already, download and install from:
 
-* R: https://cran.rstudio.com/
-* RStudio: https://www.rstudio.com/products/rstudio/download3/
+* **R**: [https://cran.rstudio.com/]()
+* **RStudio**: [https://www.rstudio.com/products/rstudio/download3/]()
 
 ## git and SourceTree
 
 ### git
 * Follow instructions at http://happygitwithr.com/install-git.html#windows (**Option 1**)
   * Install _Git for Windows_ (previously known as ‘mysysgit’ or 'Git Bash'):
-    * https://git-for-windows.github.io/
+    * [https://git-for-windows.github.io/]()
     * Download and Run installer
       * Choose the default settings when stepping through the installer
         * Default selection of Components
@@ -29,7 +29,7 @@ If you haven't got R and RStudio installed already, download and install from:
         * Click install
 
 ### SourceTree
-* Go to https://www.sourcetreeapp.com/
+* Go to [https://www.sourcetreeapp.com/]()
   * Click the _Download for Windows_ button, and Run installer
     * _**Note!** When testing on 7 Nov, the downloaded installer file did not have an **.exe** file ending. If you also encounter this problem, rename the downloaded file so that it ends with **.exe** and double-click._
 	* Choose the default location
@@ -45,7 +45,7 @@ If you haven't got R and RStudio installed already, download and install from:
       * "Load SSH key?" - Cancel
 
 ## GitHub
-Go to https://github.com/join, and register for an account. Create a free account.
+Go to [https://github.com/join](), and register for an account. Create a free account.
 
 ## Open Science Framework
-Register for an Open Science Framework account (https://osf.io)
+Register for an Open Science Framework account ([https://osf.io]())
