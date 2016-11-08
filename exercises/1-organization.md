@@ -32,7 +32,7 @@ my_project
 :computer:Create a README.txt (or README.md) file in each directory that describes the purpose of the directory.
 <details>
 <summary>:key: Click to see an example</summary>
-A README.md for a **results** directory:
+<br />A README.md for a **results** directory:
 {% highlight bash %}
 # results
 Results directory for tracking computational experiments peformed on data. Keep results from different runs in date-stamped directories.
