@@ -33,9 +33,9 @@ my_project
 <details>
 <summary>:key: Click to see an example</summary>
 A README.md for a **results** directory:
-```
+{% highlight bash %}
 # results
 Results directory for tracking computational experiments peformed on data. Keep results from different runs in date-stamped directories.
-```
+{% endhighlight %}
 </details>  
 <br />
