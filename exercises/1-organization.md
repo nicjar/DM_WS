@@ -15,7 +15,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 :computer:Create relevant subfolders according to some best-practice outline.
 <details>
 <summary>:key: Click to see a suggest folder structure</summary>
-```
+{% highlight bash %}
 my_project
 |─ bin
 |- doc
@@ -25,7 +25,7 @@ my_project
 |     |- 2016-11-16
 |- results
 |- src
-```
+{% endhighlight %}
 </details>  
 <br />
 
