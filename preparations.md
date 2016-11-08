@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Preparations
+layout: dead_end
+title: 'Preparations'
 ---
 
 # Preparations
