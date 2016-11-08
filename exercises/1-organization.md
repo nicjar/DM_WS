@@ -10,7 +10,7 @@ title:  '1. File organization'
 :computer:Create relevant subfolders according to some best-practice outline.
 <details>
 <summary>:key: Click to see a suggest folder structure</summary>
-{% highlight bash %}
+<!-- {% highlight bash %} -->
 my_project
 |─ bin
 |- doc
@@ -20,7 +20,7 @@ my_project
 |     |- 2016-11-16
 |- results
 |- src
-{% endhighlight %}
+<!-- {% endhighlight %} -->
 </details>  
 <br />
 
@@ -28,9 +28,9 @@ my_project
 <details>
 <summary>:key: Click to see an example</summary>
 <br />A README.md for a **results** directory:
-{% highlight markdown %}
+<!-- {% highlight markdown %} -->
 # results
 Results directory for tracking computational experiments peformed on data. Keep results from different runs in date-stamped directories.
-{% endhighlight %}
+<!-- {% endhighlight %} -->
 </details>  
 <br />
