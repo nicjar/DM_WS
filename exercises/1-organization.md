@@ -3,11 +3,6 @@ layout: default
 title:  '1. File organization'
 ---
 
-# <a name="begin"></a> Preparations
-
-If you haven't done so already, make sure that you do all preparatory steps described in [Preparations]({{site.url}}/preparations.html)
-<br />
-
 # File organization
 :computer:Create a folder for your project in some suitable location on your computer
 <br />
