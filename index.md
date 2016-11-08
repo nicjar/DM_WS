@@ -13,7 +13,7 @@ Niclas Jareborg
 
 - [Introduction to data management](slides/Data_Management_slides.html#4)
 - File organisation best-practices
-    - [Hands-on session](exercises/1-organization)
+    - [Hands-on session](exercises/1-organization.html)
 - Version control — introduction to git and GitHub
     - <em>Hands-on session</em>
 

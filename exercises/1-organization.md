@@ -5,7 +5,7 @@ title:  '1. File organization'
 
 # <a name="begin"></a> Preparations
 
-If you haven't done so already, make sure that you do all preparatory steps described in [Preparations](https://github.com/nicjar/DM_WS/blob/master/preparations.md)
+If you haven't done so already, make sure that you do all preparatory steps described in [Preparations](https://github.com/nicjar/DM_WS/preparations.html)
 <br />
 
 # File organization
@@ -23,6 +23,16 @@ my_project
 |     |- 2016-11-16
 |- results
 |- src
+```
+</details>  
+<br />
+3. :computer:Create a README.txt (or README.md) file in each directory that describes the purpose of the directory.
+<details>
+<summary>:key: Click to see an example</summary>
+A README.md for a **results** directory:
+```
+# results
+Results directory for tracking computational experiments peformed on data. Keep results from different runs in date-stamped directories.
 ```
 </details>  
 <br />
