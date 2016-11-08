@@ -5,7 +5,7 @@ title:  '1. File organization'
 
 # <a name="begin"></a> Preparations
 
-If you haven't done so already, make sure that you do all preparatory steps described in [Preparations](https://github.com/nicjar/DM_WS/preparations.html)
+If you haven't done so already, make sure that you do all preparatory steps described in [Preparations](preparations.html)
 <br />
 
 # File organization
