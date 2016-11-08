@@ -9,6 +9,7 @@ To make the workshop run smoothly, you need to have a couple of programs install
 
 ## R and RStudio
 If you haven't got R and RStudio installed already, download and install from:
+
 * R: https://cran.rstudio.com/
 * RStudio: https://www.rstudio.com/products/rstudio/download3/
 
