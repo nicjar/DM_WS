@@ -16,7 +16,7 @@ If you haven't got R and RStudio installed already, download and install from:
 ## git and SourceTree
 
 ### git
-* Follow instructions at http://happygitwithr.com/install-git.html#windows (**Option 1**)
+* Follow instructions at [http://happygitwithr.com/install-git.html#windows](http://happygitwithr.com/install-git.html#windows) (**Option 1**)
   * Install _Git for Windows_ (previously known as ‘mysysgit’ or 'Git Bash'):
     * [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
     * Download and Run installer
