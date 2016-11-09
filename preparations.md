@@ -48,4 +48,4 @@ If you haven't got R and RStudio installed already, download and install from:
 Go to [https://github.com/join](https://github.com/join), and register for an account. Create a free account.
 
 ## Open Science Framework
-Register for an Open Science Framework account ([https://osf.io](https://osf.io))
+Sign up for an Open Science Framework account ([https://osf.io](https://osf.io))
