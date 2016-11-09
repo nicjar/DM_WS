@@ -14,12 +14,14 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <details>
 <summary>:key: Click to see hints</summary>
 <ul>
+
 	<li>New -&gt; Add existing local repository
 	<li>Select your folder
 	<li>Destination path: path to your directory (should be correct)
 	<li>Name: directory name (or what you want)
 	<li>Type: Git
 	<li>Leave 'Also create remote repository' unchecked
+
 </ul>
 </details>  
 <br />
