@@ -15,7 +15,7 @@ Niclas Jareborg
 - File organisation best-practices
     - [File organization hands-on session](exercises/1-organization.html)
 - Version control — introduction to git and GitHub
-    - <em>[git hands-on session](excercises/2-git.html)</em>
+    - <em>[git hands-on session](exercises/2-git.html)</em>
 
 <div class="centered">
 -- <b><em>Lunch</em></b> --
