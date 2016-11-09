@@ -13,6 +13,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 :computer:Add your project directory to SourceTree
 <details>
 <summary>:key: Click to see hints</summary>
+
 - New -> Add existing local repository
 - Select your folder
 - Destination path: path to your directory (should be correct)
