@@ -10,9 +10,9 @@ title:  '2. git and GitHub'
 If you haven't done so already, make sure that you do all preparatory steps described in [Preparations]({{site.url}}/preparations.html)
 <br />
 
-# Working with git in SourceTree
+## Working with git in SourceTree
 
-### :computer:Add your project directory to SourceTree
+#### :computer: Add your project directory to SourceTree
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
 
@@ -26,7 +26,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 </details>  
 <br />
 
-### :computer:Do an initial commit of your files
+#### :computer: Do an initial commit of your files
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
 
@@ -40,7 +40,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 </details>  
 <br />
 
-### :computer:Edit one of the files, and commit the change
+#### :computer: Edit one of the files, and commit the change
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
 * Select the changed file listed under 'Unstaged files', and view the changes that has been made
@@ -50,7 +50,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 </details>  
 <br />
 
-### :computer:Add a file to your project that you don't want to commit to git.
+#### :computer: Add a file to your project that you don't want to commit to git.
 For example, this could be a dataset file that you don't want to make public yet, e.g. `my_project/data/raw/2016-11-16/bryceveg.R`. Make git ignore this file.
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
