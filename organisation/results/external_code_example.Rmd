@@ -9,7 +9,7 @@ output: html_document
 # read chunk (does not run code)
 ```{r echo=FALSE}
 library(knitr)
-read_chunk('example.R')
+read_chunk('../src/example.R')
 ```
 
 # run the variablesXY chunk and use the variables it creates

@@ -1,0 +1,43 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+
+# Reading in data
+
+Before beginning the analysis, let's get the data into R. Assuming R is installed on your computer, the first thing we want to do is create a workspace. 
+
+The first objective is to convert the ascii community data file to an R object. 
+
+```{r tidy=TRUE, prompt=TRUE}
+# raw_data_file <- 'data/raw/1992-01-01/bryceveg.R' # relative to where the project .Rproj file is!
+raw_data_file <- '../data/raw/1992-01-01/bryceveg.R' # relative to where the .Rmd file is!
+veg <- read.table(raw_data_file,header=TRUE,row.names=1)
+```
+
+```{r tidy=TRUE, prompt=TRUE}
+test_raw_data_file <- '/organisation/data/raw/1992-01-01/bryceveg.R' # absolute path based on where the project .Rproj file is!
+
+test_veg <- read.table(raw_data_file,header=TRUE,row.names=1)
+```
+
+# Data set characteristics
+Now that we've got the data into a data frame, we can examine the characteristics of the distribution of the data. First, we need to know there are 160 plots and 169 species in the data set. R could tell us that if we asked:
+
+```{r tidy=TRUE, prompt=TRUE}
+dim(veg)          # to get the dimensions of the data set
+names(veg)        # to get the columns names (species in our case)
+row.names(veg)    # to get the row names (plots in our case)
+```
