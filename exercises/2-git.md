@@ -108,20 +108,19 @@ _This is a bit tricky..._
 <summary>:key: Click to see hints</summary>
 
 _This can be done in many different ways..._
-If you want to go back to a previous commit one step back, the easiest way is to
-* Right-click the last commit and select _Reverse commit_
-
-Otherwise you can use branches:
-* Check out a new branch (_Branch_ button at the top)
-	* Base it on the commit that had the deleted file
-	* Name the branch to something useful, e.g. _recover_
-	* Check that you get the file back
-	* Change something in your repository (e.g. add a space to a file)
-		* Note that the two branches have separated.
-* Merge the recover branch with the _master_ branch:
-	* Switch back to the **_master_** branch by double-clicking _master_ under BRANCHES
-	* Click _Merge_ at the top
-	* Select the latest commit on the _recover_ branch, and click OK. _Pray..._
+1. If you want to go back to a previous commit one step back, the easiest way is to
+	* Right-click the last commit and select _Reverse commit_
+2. Otherwise you can use branches:
+	* Check out a new branch (_Branch_ button at the top)
+		* Base it on the commit that had the deleted file
+		* Name the branch to something useful, e.g. _recover_
+		* Check that you get the file back
+		* Change something in your repository (e.g. add a space to a file)
+			* Note that the two branches have separated.
+	* Merge the recover branch with the _master_ branch:
+		* Switch back to the **_master_** branch by double-clicking _master_ under BRANCHES
+		* Click _Merge_ at the top
+		* Select the latest commit on the _recover_ branch, and click OK. _Pray..._
 
 </details>  
 <br />
