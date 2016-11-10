@@ -22,7 +22,7 @@ Niclas Jareborg
 </div>
 
 - Notebooks - R Notebook
-    - <em>[R Notebook hands-on session](exercises/3-Rnotebooks.html)</em>
+    - [_R Notebook hands-on session_](exercises/3-Rnotebooks.html)
 - Data publishing
 - Collaborative environments
     - <em>Hands-on session</em>
