@@ -14,13 +14,13 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
 
-* New -> Add existing local repository
-* Select your folder
-* Destination path: path to your directory (should be correct)
-* Name: directory name (or what you want)
-* Type: Git
-* Leave 'Also create remote repository' unchecked
-
+* _Clone / New_ -> _Create New Repository_ tab
+	* **Repository Type**: Git
+	* **Destination path**: path to your directory (can be selected by using the ... button)
+	* Check the _Bookmark this repository_ option
+	* **Name**: directory name (or what you want)
+* At the next dialog, add your name and email address (preferable the same that you used when you registered your GitHub account)
+	* Check the _Use these details for all repositories_ option@
 </details>  
 <br />
 
@@ -29,7 +29,8 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <summary>:key: Click to see hints</summary>
 
 * Open your project repository in SourceTree
-* Select the files listed under 'Unstaged files'
+* On the lefthand panel
+* Select the files listed under 'Unstaged files' and
 * Type an short and informative message in the commit message text field at the bottom, e.g. `Initial commit`
 * Hit commit button
 * (Expand the Branches tab on the left, and select the master branch to see what was committed)
@@ -48,11 +49,11 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <br />
 
 :computer:Add a file to your project that you don't want to commit to git. For example, this could be a dataset file that you don't want to make public yet, e.g. `my_project/data/raw/2016-11-16/bryceveg.R`. Make git ignore this file.
-<details>
+<details markdown="1">
 <summary>:key: Click to see hints</summary>
 * Select the changed file listed under 'Unstaged files', and view the changes that has been made
-* Type an short and informative message in the commit message text field at the bottom, e.g. `Added more information about this or that`
-* Hit commit button
+* Add a file somewhere in your project directory
+*
 * (Expand the Branches tab on the left, and select the master branch to see what was committed)
 </details>  
 <br />
