@@ -10,7 +10,7 @@ title:  '1. File organization'
 :computer:Create relevant subfolders according to some best-practice outline.
 <details markdown="1">
 <summary>:key: Click to see a suggest folder structure</summary>
-```
+
 my_project
 |─ bin
 |- doc
@@ -20,7 +20,7 @@ my_project
 |     |- 2016-11-16
 |- results
 |- src
-```
+
 </details>  
 <br />
 
