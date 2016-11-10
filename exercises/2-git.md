@@ -11,16 +11,16 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 
 # git
 :computer:Add your project directory to SourceTree
-<details>
+<details markdown="1">
 <summary>:key: Click to see hints</summary>
-<ul>
-	<li>New -&gt; Add existing local repository
-	<li>Select your folder
-	<li>Destination path: path to your directory (should be correct)
-	<li>Name: directory name (or what you want)
-	<li>Type: Git
-	<li>Leave 'Also create remote repository' unchecked
-</ul>
+
+* New -> Add existing local repository
+* Select your folder
+* Destination path: path to your directory (should be correct)
+* Name: directory name (or what you want)
+* Type: Git
+* Leave 'Also create remote repository' unchecked
+
 </details>  
 <br />
 
@@ -38,25 +38,21 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <br />
 
 :computer:Edit one of the files, and commit the change
-<details>
+<details markdown="1">
 <summary>:key: Click to see hints</summary>
-<ul>
-	<li>Select the changed file listed under 'Unstaged files', and view the changes that has been made
-	<li>Type an short and informative message in the commit message text field at the bottom, e.g. `Added more information about this or that`
-	<li>Hit commit button
-	<li>(Expand the Branches tab on the left, and select the master branch to see what was committed)
-</ul>
+* Select the changed file listed under 'Unstaged files', and view the changes that has been made
+* Type an short and informative message in the commit message text field at the bottom, e.g. `Added more information about this or that`
+* Hit commit button
+* (Expand the Branches tab on the left, and select the master branch to see what was committed)
 </details>  
 <br />
 
 :computer:Add a file to your project that you don't want to commit to git. For example, this could be a dataset file that you don't want to make public yet, e.g. `my_project/data/raw/2016-11-16/bryceveg.R`. Make git ignore this file.
 <details>
 <summary>:key: Click to see hints</summary>
-<ul>
-	<li>Select the changed file listed under 'Unstaged files', and view the changes that has been made
-	<li>Type an short and informative message in the commit message text field at the bottom, e.g. `Added more information about this or that`
-	<li>Hit commit button
-	<li>(Expand the Branches tab on the left, and select the master branch to see what was committed)
-</ul>
+* Select the changed file listed under 'Unstaged files', and view the changes that has been made
+* Type an short and informative message in the commit message text field at the bottom, e.g. `Added more information about this or that`
+* Hit commit button
+* (Expand the Branches tab on the left, and select the master branch to see what was committed)
 </details>  
 <br />
