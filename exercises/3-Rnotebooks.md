@@ -5,7 +5,14 @@ title:  '3. R notebooks'
 
 # <a name="begin"></a> R notebooks
 
+Start an R project in the git repository
+* In RStudio, _File_ -> _New project..._
+* Choose _Existing Directory_, and select your project repository
 
+* Add a data file to an appropriate place in your repository. Use a data file of your own, or this example dataset: [bryceveg.R](http://ecology.msu.montana.edu/labdsv/R/labs/lab1/bryceveg.R) (see [dataset description](http://www.davidzeleny.net/anadat-r/doku.php/en:data:bryce) for more info on this dataset)
+
+* A suitable location could be e.g. `my_project/data/raw/1992-01-01/`
+* 
 
 <!-- ## Working with git in SourceTree
 
