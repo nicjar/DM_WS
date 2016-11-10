@@ -75,7 +75,7 @@ For example, this could be a dataset file that you don't want to make public yet
   * Ignore the rest of the choices
   * Click the _Create repository_ button
 * Copy the link shown under _Quick setup_ on the next page
-![](images/GH_new_repo_url.png)
+![](../images/GH_new_repo_url.png)
 * In SourceTree, click _Settings_ (on the top right).
   * then _Remotes_ tab, _Add_ button
   * Check the _Default remote_ choice
@@ -95,5 +95,32 @@ For example, this could be a dataset file that you don't want to make public yet
 <summary>:key: Click to see hints</summary>
 * After changing some file, stage the file as usual.
 * Check the _Push changes immediately to origin/master_ choice below the commit message text field, Click the _Commit_ button
+</details>  
+<br />
+
+#### :computer: Recover an earlier state.
+1. Delete one of the files in your repository
+2. Commit the change
+3. Now try to recover the state before the file was deleted.
+
+_This is a bit tricky..._
+<details markdown="1">
+<summary>:key: Click to see hints</summary>
+_This can be done in many different ways..._
+If you want to go back to a previous commit one step back, the easiest way is to
+* Right-click the last commit and select _Reverse commit_
+
+Otherwise you can use branches:
+* Check out a new branch (_Branch_ button at the top)
+	* Base it on the commit that had the deleted file
+	* Name the branch to something useful, e.g. _recover_
+	* Check that you get the file back
+	* Change something in your repository (e.g. add a space to a file)
+		* Note that the two branches have separated.
+* Merge the recover branch with the _master_ branch:
+	* Switch back to the **_master_** branch by double-clicking _master_ under BRANCHES
+	* Click _Merge_ at the top
+	* Select the latest commit on the _recover_ branch, and click OK. _Pray..._
+
 </details>  
 <br />
