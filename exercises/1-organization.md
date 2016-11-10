@@ -8,7 +8,7 @@ title:  '1. File organization'
 <br />
 
 :computer:Create relevant subfolders according to some best-practice outline.
-<details>
+<details markdown="1">
 <summary>:key: Click to see a suggest folder structure</summary>
 <!-- {% highlight bash %} -->
 my_project
@@ -25,7 +25,7 @@ my_project
 <br />
 
 :computer:Create a README.txt (or README.md) file in each directory that describes the purpose of the directory.
-<details>
+<details markdown="1">
 <summary>:key: Click to see an example</summary>
 <br />A README.md for a **results** directory:
 <!-- {% highlight markdown %} -->
