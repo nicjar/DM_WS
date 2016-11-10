@@ -10,7 +10,7 @@ title:  '1. File organization'
 :computer:Create relevant subfolders according to some best-practice outline.
 <details markdown="1">
 <summary>:key: Click to see a suggest folder structure</summary>
-
+~~~~~
 my_project
 |─ bin
 |- doc
@@ -20,7 +20,7 @@ my_project
 |     |- 2016-11-16
 |- results
 |- src
-
+~~~~~
 </details>  
 <br />
 
@@ -28,9 +28,9 @@ my_project
 <details markdown="1">
 <summary>:key: Click to see an example</summary>
 A README.md for a **results** directory:<br>
-
+~~~~~
 # results
 Results directory for tracking computational experiments peformed on data. Keep results from different runs in date-stamped directories.
-
+~~~~~
 </details>  
 <br />
