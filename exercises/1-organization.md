@@ -10,7 +10,7 @@ title:  '1. File organization'
 :computer:Create relevant subfolders according to some best-practice outline.
 <details markdown="1">
 <summary>:key: Click to see a suggest folder structure</summary>
-<!-- {% highlight bash %} -->
+```
 my_project
 |─ bin
 |- doc
@@ -20,17 +20,17 @@ my_project
 |     |- 2016-11-16
 |- results
 |- src
-<!-- {% endhighlight %} -->
+```
 </details>  
 <br />
 
 :computer:Create a README.txt (or README.md) file in each directory that describes the purpose of the directory.
 <details markdown="1">
 <summary>:key: Click to see an example</summary>
-<br />A README.md for a **results** directory:
-<!-- {% highlight markdown %} -->
+A README.md for a **results** directory:
+``
 # results
 Results directory for tracking computational experiments peformed on data. Keep results from different runs in date-stamped directories.
-<!-- {% endhighlight %} -->
+``
 </details>  
 <br />
