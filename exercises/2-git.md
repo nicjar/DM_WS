@@ -60,3 +60,40 @@ For example, this could be a dataset file that you don't want to make public yet
 * Notice that a new file _.gitignore_ has appeared. Add and commit that file to your repository.
 </details>  
 <br />
+
+## Working with a GitHub remote repository
+
+#### :computer: Create a new repository on [GitHub](https://github.com)
+<details markdown="1">
+<summary>:key: Click to see hints</summary>
+* Go to GitHub, and log in to your account
+* Click the _Start a project_ or the _New repository_ button
+  * Give the the repository the same name as the folder on your computer
+    * _You can name it anything you want, but it's usually easier to understand what's going on if they are called the same thing_
+  * Add a description if you want to
+  * Select _Public_ or _Private_. (If you want to make it Private, what's your reason for this?)
+  * Ignore the rest of the choices
+  * Click the _Create repository_ button
+* Copy the link shown under _Quick setup_ on the next page
+![](images/GH_new_repo_url.png)
+* In SourceTree, click _Settings_ (on the top right).
+  * then _Remotes_ tab, _Add_ button
+  * Check the _Default remote_ choice
+  * In _URL / Path_, paste the link that you copied from GitHub
+  * Add your GitHub username
+* To **push** your local repository state to the remote repository on GitHub, click the _Push_ button in the toolbar at the top
+  * Check the _master_ branch choice, and click the _Push_ button
+  * Submit username and password in the _Authenticate_ dialog that pops up
+  * _You should now see two branch names in the commit history: **master** and **origin/master**_
+* Go back to GitHub and check that you can see your repository. (Click the name of the repository at the top, or the _Code_ tab)
+	* Also notice that the file you told git to ignore in the previous task is not present in the remote repository
+</details>  
+<br />
+
+#### :computer: Make a change to your repository locally, e.g. by modifying or adding a file. Commit your changes to both the local and remote repositories
+<details markdown="1">
+<summary>:key: Click to see hints</summary>
+* After changing some file, stage the file as usual.
+* Check the _Push changes immediately to origin/master_ choice below the commit message text field, Click the _Commit_ button
+</details>  
+<br />
