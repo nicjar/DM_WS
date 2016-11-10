@@ -26,7 +26,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 
 :computer:Do an initial commit of your files
 <details markdown="1">
-<summary markdown="1">:key: Click to see hints</summary>
+<summary>:key: Click to see hints</summary>
 
 * Open your project repository in SourceTree
 * Select the files listed under 'Unstaged files'
