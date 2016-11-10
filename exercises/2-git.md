@@ -106,7 +106,6 @@ For example, this could be a dataset file that you don't want to make public yet
 _This is a bit tricky..._
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
-
 _This can be done in many different ways..._
 1. If you want to go back to a previous commit one step back, the easiest way is to
 	* Right-click the last commit and select _Reverse commit_
