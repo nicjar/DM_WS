@@ -13,7 +13,7 @@ Niclas Jareborg
 
 - [Introduction to data management](slides/Data_Management_slides.html#4)
 - File organisation best-practices
-    - [File organization hands-on session](exercises/1-organization.html)
+    - _[File organization hands-on session](exercises/1-organization.html)_
 - Version control — introduction to git and GitHub
     - <em>[git hands-on session](exercises/2-git.html)</em>
 
@@ -21,8 +21,8 @@ Niclas Jareborg
 -- <b><em>Lunch</em></b> --
 </div>
 
-- Notebooks - R notebook
-    - <em>Hands-on session</em>
+- Notebooks - R Notebook
+    - <em>[R Notebook hands-on session](exercises/3-Rnotebooks.html)</em>
 - Data publishing
 - Collaborative environments
     - <em>Hands-on session</em>
