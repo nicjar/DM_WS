@@ -5,7 +5,7 @@ title:  'Data Management workshop'
 
 # Data Management workshop
 _2016-11-16_
-Department of Ecology and ...
+Department of Ecology, Environment and Plant Sciences – Stockholm university
 
 Niclas Jareborg
 
