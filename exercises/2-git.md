@@ -98,6 +98,19 @@ For example, this could be a dataset file that you don't want to make public yet
 </details>  
 <br />
 
+#### :computer: Make a release of your repository on GitHub
+This makes it easy for others to download the repository. You can use it yourself if you arrive at a directory structure that you want to reuse.
+
+<details markdown="1">
+<summary>:key: Click to see hints</summary>
+* Go to your repository on GitHub
+* Click where it says _0 releases_
+* Click _Create a new release_
+* Tag the release, e.g. `v0.1`, give it a title, and maybe a description
+* Click _Publish release_
+</details>  
+<br />
+
 #### :computer: Recover an earlier state.
 1. Delete one of the files in your repository
 2. Commit the change
