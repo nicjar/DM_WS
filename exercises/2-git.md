@@ -25,19 +25,31 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 <br />
 
 :computer:Do an initial commit of your files
+<details markdown="1">
+<summary markdown="1">:key: Click to see hints</summary>
+
+* Open your project repository in SourceTree
+* Select the files listed under 'Unstaged files'
+* Type an short and informative message in the commit message text field at the bottom, e.g. `Initial commit`
+* Hit commit button
+* (Expand the Branches tab on the left, and select the master branch to see what was committed)
+
+</details>  
+<br />
+
+:computer:Edit one of the files, and commit the change
 <details>
 <summary>:key: Click to see hints</summary>
 <ul>
-	<li>Open your project repository in SourceTree
-	<li>Select the files listed under 'Unstaged files'
-	<li>Type an short and informative message in the commit message text field at the bottom, e.g. `Initial commit`
+	<li>Select the changed file listed under 'Unstaged files', and view the changes that has been made
+	<li>Type an short and informative message in the commit message text field at the bottom, e.g. `Added more information about this or that`
 	<li>Hit commit button
 	<li>(Expand the Branches tab on the left, and select the master branch to see what was committed)
 </ul>
 </details>  
 <br />
 
-:computer:Edit one of the files, and commit the change
+:computer:Add a file to your project that you don't want to commit to git. For example, this could be a dataset file that you don't want to make public yet, e.g. `my_project/data/raw/2016-11-16/bryceveg.R`. Make git ignore this file.
 <details>
 <summary>:key: Click to see hints</summary>
 <ul>
