@@ -107,9 +107,9 @@ _This is a bit tricky..._
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
 _This can be done in many different ways..._
-1. If you want to go back to a previous commit one step back, the easiest way is to
+* If you want to go back to a previous commit one step back, the easiest way is to
 	* Right-click the last commit and select _Reverse commit_
-2. Otherwise you can use branches:
+* Otherwise you can use branches:
 	* Check out a new branch (_Branch_ button at the top)
 		* Base it on the commit that had the deleted file
 		* Name the branch to something useful, e.g. _recover_
