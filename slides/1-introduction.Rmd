@@ -1,7 +1,10 @@
 ---
 title: "Introduction to Data Management"
 subtitle: "Data Management workshop<br />DEEP – Stockholm university"
-author: "Niclas Jareborg, NBIS"
+author: 
+  name: "Niclas Jareborg"
+  company: "NBIS"
+  www: "http://nbis.se"
 date: "2016-11-16"
 output:
   ioslides_presentation:
