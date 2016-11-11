@@ -1,0 +1,109 @@
+---
+title: "Version control - intro to git and GitHub"
+subtitle: "Data Management workshop<br />DEEP – Stockholm university"
+author: "Niclas Jareborg, NBIS"
+date: "2016-11-16"
+output:
+  ioslides_presentation:
+    # smaller: true
+    css: styles.css
+    widescreen: false
+    logo: images/logo.png
+---
+
+## What is version control?
+- A system that keeps records of your changes
+- Allows for collaborative development
+- Allows you to know who made what changes and when
+- **Allows you to revert any changes and go back to a previous state**
+
+## What is version control?
+- Distributed version control
+- Users keep entire code and history on their location machines
+	- Users can make any changes without internet access
+	- (Except pushing and pulling changes from a remote server)
+
+## What is git?
+- Started in 2005
+- Created by Linus Torvald to aid in Linux kernel development
+<div class="midcenter" style="margin-left:160px; margin-top:10px;">
+<img src="images/git/git-logo.png" width="225px" />
+</div>
+
+## Other version control systems
+- Subversion (SVN)
+- Concurrent Versions System (CVS)
+- Perforce
+- Mercurial
+- Bazaar
+
+## How does git work?
+- Can be complicated at first, but there are a few key concepts
+- Important git terminology in following slides are blue
+
+## Key Concepts: Snapshots
+- The way git keeps track of your code history
+- Essentially records what all your files look like at a given point in time
+- You decide when to take a snapshot, and of what files
+- Have the ability to go back to visit any snapshot
+	- Your snapshots from later on will stay around, too
+
+## Key Concepts: Commit
+- The act of creating a snapshot
+- Can be a noun or verb
+	- “I commited code”
+	- “I just made a new commit”
+- Essentially, a project is made up of a bunch of commits
+
+## Key Concepts: Commit
+- Commits contain three pieces of information:
+
+1. Information about how the files changed from previously
+2. A reference to the commit that came before it
+	- Called the “parent commit”
+3. A hash code name
+	- Will look something like:
+		f2d2ec5069fc6776c80b3ad6b7cbde3cade4e
+
+## Key Concepts: Repositories
+- Often shortened to ‘repo’
+- A collection of all the files and the history of those files
+	- Consists of all your commits
+	- Place where all your hard work is stored
+
+## Key Concepts: Repositories
+- Can live on a local machine or on a remote server (GitHub!)
+- The act of copying a repository from a remote server is called cloning
+- Cloning from a remote server allows teams to work together
+
+## Key Concepts: Repositories
+- The process of downloading commits that don’t exist on your machine from a remote repository is called pulling changes
+- The process of adding your local changes to the remote repository is called pushing changes
+
+## Key Concepts: Branches
+- All commits in git live on some branch
+- But there can be many, many branches
+- The main branch in a project is called the master branch
+
+## So, what does a typical project look like?
+- A bunch of commits linked together that live on some branch, contained in a repository
+- Following images taken and modified from:
+	- http://marklodato.github.io/visual-gitguide/index-en.html
+	- Also a good tutorial!
+
+## So, what does a typical project look like?
+![](images/git/1.png)
+
+## So, what is HEAD?
+-  A reference to the most recent commit
+![](images/git/1.png)
+
+
+## Useful git resources
+- Git Pro book: [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
+
+## Slide materials sources
+- Meghan Nelson, Git 101: Git and GitHub for Beginners - http://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners
+- Rohit Arora, Introduction to Git/Github - A beginner's guide - http://www.slideshare.net/akrish/introduction-to-gitgithub-a-beginners-guide
+
+# Hands-on session

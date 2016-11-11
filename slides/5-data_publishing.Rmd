@@ -1,0 +1,14 @@
+---
+title: "Data publishing"
+subtitle: "Data Management workshop<br />DEEP – Stockholm university"
+author: "Niclas Jareborg, NBIS"
+date: "2016-11-16"
+output:
+  ioslides_presentation:
+    # smaller: true
+    css: styles.css
+    widescreen: false
+    logo: images/logo.png
+---
+
+# Open Access
