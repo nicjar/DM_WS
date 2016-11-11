@@ -12,6 +12,7 @@ output:
     css: styles.css
     widescreen: false
     logo: images/logo.png
+    # highlight: pygments
 ---
 
 ## What is version control?
@@ -88,25 +89,95 @@ output:
 - But there can be many, many branches
 - The main branch in a project is called the master branch
 
-## So, what does a typical project look like?
+## So, what does a typical project look like? {.smaller}
 - A bunch of commits linked together that live on some branch, contained in a repository
-- Following images taken and modified from:
-	- http://marklodato.github.io/visual-gitguide/index-en.html
-	- Also a good tutorial!
-
-## So, what does a typical project look like?
 ![](images/git/1.png)
 
 ## So, what is HEAD?
 -  A reference to the most recent commit
+    - (in most cases – not always true!)
+
 ![](images/git/1.png)
 
+## So, what is MASTER?
+- The main branch in your project
+	- Doesn’t have to be called master, but almost always is
 
-## Useful git resources
-- Git Pro book: [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
+![](images/git/1.png)
 
-## Slide materials sources
-- Meghan Nelson, Git 101: Git and GitHub for Beginners - http://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners
-- Rohit Arora, Introduction to Git/Github - A beginner's guide - http://www.slideshare.net/akrish/introduction-to-gitgithub-a-beginners-guide
+## Key Concepts: How do you make a commit anyway?
+- There are a lot of ‘states’ and ‘places’ a file can be
+- Local on your computer: the ‘working directory’ or on another computer/server: the 'remote'
+- When a file is ready to be put in a commit you ‘stage’ it
+
+## The Git Workflow
+The simplest use of git:
+
+- **Modify** file in your _working directory_
+- **Stage** the files, adding snapshots of them to your _staging area_
+- **Commit**, takes files in the staging area and stores that snapshot permanently to your _git directory_
+
+```{r, eval=FALSE}
+  my_working_dir/ <== the working directory
+  |-.git/         <== the local repository
+  |  |- ...files  <== files/folder git uses to capture the current
+  |                   and previous states of the working directory
+  |- file1     \
+  |- dir1/      | <== files/folders in the working directory
+  |  |- file2  /
+```
+
+## File states
+Files in your working directory can be in four different states in relation to the current commit
+![](images/git/2.png)
+
+## Ok, but how do you actually do it?
+You learn linux and do it on the command line:
+
+```{r, engine='bash', eval=FALSE}
+$ mkdir my_project
+$ cd my_project
+$ git init
+$ echo "# README" > README.md
+$ git add README.md
+$ git commit -m 'Added README.md file'
+$ echo "This is my fabulous project" >> README.md
+$ git add README.md
+$ git commit -m 'Updated README.md' README.md
+```
+
+_or a..._
+
+## Graphical user interface
+- SourceTree
+	- or some other...
+
+<div class="midcenter" style="margin-left:-350px; margin-top:-160px;">
+<img src="images/git/sourcetree_gui.png" width="680px" />
+</div>
+
+## What is GitHub?
+- [www.github.com](http://www.github.com)
+- Largest web-based git repository hosting service
+	- Hosts ‘remote repositories’
+- Allows for code collaboration and **sharing** with anyone online
+- Adds extra functionality on top of git
+	- UI, documentation, bug tracking, feature requests, pull requests, and more!
+
+
+## Useful git resources (mainly command line) {.smaller}
+- Official git site and tutorial: https://git-scm.com/
+- GitHub guides: https://guides.github.com/
+- Command cheatsheet: https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf
+- Interactive git tutorial: https://try.github.io/levels/1/challenges/1
+- Visual/interactive cheatsheet: http://ndpsoftware.com/git-cheatsheet.html
+- Git Pro book: https://git-scm.com/book/en/v2
+- SourceTree documentation: https://confluence.atlassian.com/get-started-with-sourcetree
+
+## Slide source acknowledgements
+- Content of these slides based on:
+	- Meghan Nelson, Git 101: Git and GitHub for Beginners - http://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners
+	- Rohit Arora, Introduction to Git/Github - A beginner's guide - http://www.slideshare.net/akrish/introduction-to-gitgithub-a-beginners-guide
+	- Some figures from: - http://marklodato.github.io/visual-git-guide/index-en.html
 
 # Hands-on session
