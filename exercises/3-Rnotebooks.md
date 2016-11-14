@@ -35,10 +35,12 @@ Use a data file of your own, or this example dataset: [bryceveg.R](http://ecolog
 <summary>:key: Click to see hints</summary>
 * Add something like this to the notebook:
 
+~~~~~~
 ```{r}
 raw_data_file <- '../data/raw/1992-01-01/bryceveg.R' # relative to where the .Rmd file is!
 data <- read.table(raw_data_file,header=TRUE,row.names=1)
 ```
+~~~~~~
 
 </details>
 <br />
@@ -48,8 +50,9 @@ data <- read.table(raw_data_file,header=TRUE,row.names=1)
 #### :computer: Add code to do some analysis and plots of the data
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
-* Add...
-* **FIX!!**
+* Add something like this to the notebook:
+
+
 </details>
 <br />
 
