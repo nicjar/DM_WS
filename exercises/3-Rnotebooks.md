@@ -8,11 +8,11 @@ title:  '3. R Notebooks'
 Start an R project in the git repository:
 
 * In RStudio, _File_ -> _New project..._
-* Choose _Existing Directory_, and select your project repository
+* Choose _Existing Directory_, and select your project working directory
 <br />
 
 
-#### :computer: Add a data file to an appropriate place in your repository.
+#### :computer: Add a data file to an appropriate place in your working directory.
 Use a data file of your own, or this example dataset: [bryceveg.R](http://ecology.msu.montana.edu/labdsv/R/labs/lab1/bryceveg.R) (see [dataset description](http://www.davidzeleny.net/anadat-r/doku.php/en:data:bryce) for more info on this dataset)
 <details markdown="1">
 <summary>:key: Click to see hints</summary>

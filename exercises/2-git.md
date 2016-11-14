@@ -23,7 +23,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 	* **Name**: directory name (or what you want)
 * At the next dialog, add your name and email address (preferable the same that you used when you registered your GitHub account)
 	* Check the _Use these details for all repositories_ option@
-</details>  
+</details>
 <br />
 
 #### :computer: Do an initial commit of your files
@@ -37,7 +37,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 * Hit commit button
 * (Expand the BRANCHES tab on the left, and select the master branch to see what was committed)
 
-</details>  
+</details>
 <br />
 
 #### :computer: Edit one of the files, and commit the change
@@ -47,7 +47,7 @@ If you haven't done so already, make sure that you do all preparatory steps desc
 * Type an short and informative message in the commit message text field at the bottom, e.g. `Added more information about this or that`
 * Hit commit button
 * (Expand the Branches tab on the left, and select the master branch to see what was committed)
-</details>  
+</details>
 <br />
 
 #### :computer: Add a file to your project that you don't want to commit to git.
@@ -58,7 +58,7 @@ For example, this could be a dataset file that you don't want to make public yet
 * Right-click the recently added file (listed under 'Unstaged files'), and select the _Ignore..._ choice.
 	* Select an appropriate available option, and click OK
 * Notice that a new file _.gitignore_ has appeared. Add and commit that file to your repository.
-</details>  
+</details>
 <br />
 
 ## Working with a GitHub remote repository
@@ -87,7 +87,7 @@ For example, this could be a dataset file that you don't want to make public yet
   * _You should now see two branch names in the commit history: **master** and **origin/master**_
 * Go back to GitHub and check that you can see your repository. (Click the name of the repository at the top, or the _Code_ tab)
 	* Also notice that the file you told git to ignore in the previous task is not present in the remote repository
-</details>  
+</details>
 <br />
 
 #### :computer: Make a change to your repository locally, e.g. by modifying or adding a file. Commit your changes to both the local and remote repositories
@@ -95,7 +95,7 @@ For example, this could be a dataset file that you don't want to make public yet
 <summary>:key: Click to see hints</summary>
 * After changing some file, stage the file as usual.
 * Check the _Push changes immediately to origin/master_ choice below the commit message text field, Click the _Commit_ button
-</details>  
+</details>
 <br />
 
 #### :computer: Make a release of your repository on GitHub
@@ -108,11 +108,11 @@ This makes it easy for others to download the repository. You can use it yoursel
 * Click _Create a new release_
 * Tag the release, e.g. `v0.1`, give it a title, and maybe a description
 * Click _Publish release_
-</details>  
+</details>
 <br />
 
 #### :computer: Recover an earlier state.
-1. Delete one of the files in your repository
+1. Delete one of the files in your working directory
 2. Commit the change
 3. Now try to recover the state before the file was deleted.
 
@@ -129,12 +129,12 @@ _This is a bit tricky..._
 		* Base it on the commit that had the deleted file
 		* Name the branch to something useful, e.g. _recover_
 		* Check that you get the file back
-		* Change something in your repository (e.g. add a space to a file)
+		* Change something in your working directory (e.g. add a space to a file)
 			* Note that the two branches have separated.
 	* Merge the recover branch with the _master_ branch:
 		* Switch back to the **_master_** branch by double-clicking _master_ under BRANCHES
 		* Click _Merge_ at the top
 		* Select the latest commit on the _recover_ branch, and click OK. _Pray..._
 
-</details>  
+</details>
 <br />
