@@ -23,8 +23,8 @@ Use a data file of your own, or this example dataset: [bryceveg.R](http://ecolog
 #### :computer: Create a new R Notebook
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
-* File -> ...
-* **FIX!!**
+* File -> New File ... -> R Notebook
+* Save it somewhere appropriate, e.g. somewhere in a `results` folder
 </details>
 <br />
 
@@ -33,8 +33,13 @@ Use a data file of your own, or this example dataset: [bryceveg.R](http://ecolog
 #### :computer: Add code to notebook to read in the dataset
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
-* Add this to the notebook:...
-* **FIX!!**
+* Add something like this to the notebook:
+
+```{r}
+raw_data_file <- '../data/raw/1992-01-01/bryceveg.R' # relative to where the .Rmd file is!
+data <- read.table(raw_data_file,header=TRUE,row.names=1)
+```
+
 </details>
 <br />
 
