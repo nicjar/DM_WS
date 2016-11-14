@@ -139,7 +139,7 @@ Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLoS
 _From Samuel Lampa’s blog: http://bionics.it/posts/organizing-compbio-projects_
 
 
-## Project organization
+## Project organization {.smaller}
 - There’s no perfect set-up
     - Pick one! e.g.
         - https://github.com/chendaniely/computational-project-cookie-cutter
@@ -149,6 +149,10 @@ _From Samuel Lampa’s blog: http://bionics.it/posts/organizing-compbio-projects
 - **Communicate** structure to collaborators
 - **Document** as you go
 - Done well, it might reduce post-project explaining
+
+<div class="midcenter" style="margin-left: 180px; margin-top: 40px;">
+<img src="images/org/explain-again.png" width="240px" />
+</div>
  
 ## Source acknowledgements
 - Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects. PLoS Comput Biol 5(7): e1000424. doi:10.1371/journal.pcbi.1000424](http://journals.plos.org/ploscompbiol/article?id=info:doi/10.1371/journal.pcbi.1000424)
