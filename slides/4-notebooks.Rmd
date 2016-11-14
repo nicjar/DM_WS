@@ -35,15 +35,59 @@ output:
     - e.g. [jupyther](http://jupyter.org/), [R Notebooks](http://rmarkdown.rstudio.com/r_notebooks.html) in RStudio
     - Plain text - work well with version control
 
-  <div class="midcenter" style="margin-left: -250px; margin-top: 60px;">
-  <img src="images/notebooks/jupyter.png" width="250px" />
-  </div>
+<div class="midcenter" style="margin-left: -250px; margin-top: 60px;">
+<img src="images/notebooks/jupyter.png" width="250px" />
+</div>
 
-  <div class="midcenter" style="margin-left: 50px; margin-top: 60px;">
-  <img src="images/notebooks/rnb.png" width="250px" />
-  </div>
+<div class="midcenter" style="margin-left: 50px; margin-top: 60px;">
+<img src="images/notebooks/rnb.png" width="250px" />
+</div>
 
 ## R Notebooks
-- 
+- RStudio (New File... -> R Notebook)
+- Documentation: http://rmarkdown.rstudio.com/r_notebooks.html
+- Write in R Markdown
+    - Documentation: http://rmarkdown.rstudio.com/lesson-1.html
+    - Cheatsheet: https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf 
+    - also _Help->Cheatsheets->R Markdown_ Cheat Sheet in RStudio)
+- Embed R and execute code (or bash, Python, SQL, etc)
+
+## R Notebooks
+- YAML Header
+
+~~~~~~
+---
+title: "R Notebook"
+output: html_notebook
+---
+~~~~~~
+
+## R Notebooks
+- Text content
+    - Markdown
+
+<div class="midcenter" style="margin-left: -425px; margin-top: -100px;">
+<img src="images/notebooks/md.png" width="850px" />
+</div>
+
+
+## R Notebooks
+- Inline code
+
+![](images/notebooks/inline-code.png)
+
+## Report formats
+- 'Knit' to different output formats
+    - html, pdf, word
+<div class="midcenter" style="margin-left: 180px; margin-top: -260px;">
+<img src="images/notebooks/knit-button.png" width="250px" />
+</div>
+<div class="midcenter" style="margin-left: -300px; margin-top: -60px;">
+<img src="images/notebooks/knit-html.png" width="300px" />
+</div>
+<div class="midcenter" style="margin-left: 50px; margin-top: -60px;">
+<img src="images/notebooks/knit-pdf.png" width="300px" />
+</div>
+
 
 # Hands-on session
