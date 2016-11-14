@@ -73,7 +73,7 @@ plot(sort(spc_pres))
 ```
 ~~~~~~
 
-* Example code taken from http://ecology.msu.montana.edu/labdsv/R/labs/lab1/lab1.html#Introduction
+* _Example code taken from [http://ecology.msu.montana.edu/labdsv/R/labs/lab1/lab1.html#Introduction](http://ecology.msu.montana.edu/labdsv/R/labs/lab1/lab1.html#Introduction)_
 </details>
 <br />
 
