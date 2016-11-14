@@ -72,23 +72,23 @@ You may also be required to explain how you will manage your data by your funder
 
 ## Open Access to research data {.smaller}
 
-<div class="columns-2">
+<!-- <div class="columns-2"> -->
 - The practice of providing on-line access to scientific information that is free of charge to the end-user and that is re-usable.
     - Does not necessarily mean unrestricted access, e.g. for sensitive personal data
 - Strong international movement towards Open Access (OA)
-- EC recommended the member states to establish national guidelines for OA
+- European Commission recommended the member states to establish national guidelines for OA
     - Swedish Research Council (VR) submitted proposal to the government last year
-<div class="midcenter" style="margin-left:200px; margin-top:-390px;">
+<div class="midcenter" style="margin-left:170px; margin-top:-300px;">
   <img src="images/intro/OA.png" width="300px"/>
 </div>
-<div class="midcenter" style="margin-left:85px; margin-top:-115px;">
-  <img src="images/intro/G8_Open Access.png" width="240px" />
+<div class="midcenter" style="margin-left:-350px; margin-top:60px;">
+  <img src="images/intro/G8_Open Access.png" width="340px" />
 </div>
 <div class="midcenter" style="margin-left:100px; margin-top:60px;">
   <img src="images/intro/VR_Open Access.png" width="200px" />
 </div>
 
-</div>
+<!-- </div> -->
 
 ## Why Open Access {.smaller}
 
