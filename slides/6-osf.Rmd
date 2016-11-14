@@ -1,7 +1,7 @@
 ---
 title: "Collaborative environments"
 subtitle: "Data Management workshop<br />DEEP – Stockholm university"
-author: 
+author:
   name: "Niclas Jareborg"
   company: "NBIS"
   www: "http://nbis.se"
@@ -15,5 +15,46 @@ output:
 ---
 
 ## Why?
+- You never truely work alone, right?
+    - Collaborators
+    - PhD supervisor
+    - etc
+- Organize and share
+
+
+## Open Science Framework
+- http://osf.io
+<div class="midcenter" style="margin-left: -400px; margin-top: -150px;">
+<img src="images/osf/1.png" width="800px" />
+</div>
+
+
+## OSF - Projects
+<div class="midcenter" style="margin-left: -400px; margin-top: -200px;">
+<img src="images/osf/2.png" width="800px" />
+</div>
+
+## OSF - Project page
+<div class="midcenter" style="margin-left: -305px; margin-top: -225px;">
+<img src="images/osf/3-proj-page.png" width="750px" />
+</div>
+
+## Component
+- Projects are structured by adding components (projects are components themselves)
+- Components can be classified as certain categories
+<div class="midcenter" style="margin-left: -400px; margin-top: -50px;">
+<img src="images/osf/4-new-comp.png" width="370px" />
+</div>
+<div class="midcenter" style="margin-left: 50px; margin-top: -50px;">
+<img src="images/osf/4-new-comp-category.png" width="370px" />
+</div>
+
+## Add-ons
+
+## Configure Add-on accounts
+<div class="midcenter" style="margin-left: -300px; margin-top: -225px;">
+<img src="images/osf/6-addons.png" width="600px" />
+</div>
+
 
 ## Hands-on session
