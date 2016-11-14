@@ -45,14 +45,32 @@ data <- read.table(raw_data_file,header=TRUE,row.names=1)
 </details>
 <br />
 
-
-
 #### :computer: Add code to do some analysis and plots of the data
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
-* Add something like this to the notebook:
+* Insert chunks with some relevant code, e.g.:
 
+~~~~~~
+# Transformation of Vegetation Data
+```{r}
+raw_data_file <- '../data/raw/1992-01-01/bryceveg.R' # relative to where the .Rmd file is!
+data <- read.table(raw_data_file,header=TRUE,row.names=1)
+```
 
+# How many plots does each species occur in?
+```{r}
+# to get number of presences for each species.
+# Note that the first part of the function
+# call (veg>0) evaluates to TRUE/FALSE or 1/0),
+# and it is the sum of ones and zeros that
+# gets calculated.
+spc_pres<-apply(veg>0,2,sum)
+
+# to see a plot of the cumulative empirical density
+# function (CEDF) for species presences
+plot(sort(spc_pres))
+```
+~~~~~~
 </details>
 <br />
 
