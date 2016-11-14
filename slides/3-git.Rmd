@@ -35,87 +35,24 @@ output:
 </div>
 
 ## Other version control systems
-- Subversion (SVN)
+- RCS
 - Concurrent Versions System (CVS)
+- Subversion (SVN)
 - Perforce
 - Mercurial
 - Bazaar
+- etc...
 
 ## How does git work?
 - Can be complicated at first, but there are a few key concepts
 - Important git terminology in following slides are <span style="color:blue">blue</span>
 
-## Key Concepts: Snapshots
-- The way git keeps track of your code history
-- Essentially records what all your files look like at a given point in time
-- You decide when to take a snapshot, and of what files
-- Have the ability to go back to visit any snapshot
-	- Your snapshots from later on will stay around, too
-
-## Key Concepts: Commit
-- The act of creating a snapshot
-- Can be a noun or verb
-	- “I commited code”
-	- “I just made a new commit”
-- Essentially, a project is made up of a bunch of commits
-
-## Key Concepts: Commit
-- Commits contain three pieces of information:
-
-1. Information about how the files changed from previously
-2. A reference to the commit that came before it
-	- Called the “parent commit”
-3. A hash code name
-	- Will look something like:
-		f2d2ec5069fc6776c80b3ad6b7cbde3cade4e
-
-## Key Concepts: Repositories
-- Often shortened to ‘repo’
-- A collection of all the files and the history of those files
-	- Consists of all your commits
-	- Place where all your hard work is stored
-
-## Key Concepts: Repositories
-- Can live on a local machine or on a remote server (GitHub!)
-- The act of copying a repository from a remote server is called cloning
-- Cloning from a remote server allows teams to work together
-
-## Key Concepts: Repositories
-- The process of downloading commits that don’t exist on your machine from a remote repository is called pulling changes
-- The process of adding your local changes to the remote repository is called pushing changes
-
-## Key Concepts: Branches
-- All commits in git live on some branch
-- But there can be many, many branches
-- The main branch in a project is called the master branch
-
-## So, what does a typical project look like? {.smaller}
-- A bunch of commits linked together that live on some branch, contained in a repository
-![](images/git/1.png)
-
-## So, what is HEAD?
--  A reference to the most recent commit
-    - (in most cases – not always true!)
-
-![](images/git/1.png)
-
-## So, what is MASTER?
-- The main branch in your project
-	- Doesn’t have to be called master, but almost always is
-
-![](images/git/1.png)
-
-## Key Concepts: How do you make a commit anyway?
-- There are a lot of ‘states’ and ‘places’ a file can be
-- Local on your computer: the ‘working directory’ or on another computer/server: the 'remote'
-- When a file is ready to be put in a commit you ‘stage’ it
-
 ## The Git Workflow
 The simplest use of git:
 
-- **Modify** file in your _working directory_
-- **Stage** the files, adding snapshots of them to your _staging area_
-- **Commit**, takes files in the staging area and stores that snapshot permanently to your _git directory_
+- **Modify** file in your <span style="color:blue">working directory</span>
+- **Stage** the files, adding snapshots of them to your <span style="color:blue">staging area</span>
+- **Commit**, takes files in the staging area and stores that snapshot permanently to your <span style="color:blue">git directory</span> (_.git_)
 
 ```{r, eval=FALSE}
   my_working_dir/ <== the working directory
@@ -127,6 +64,81 @@ The simplest use of git:
   |  |- file2  /
 ```
 
+## Key Concepts: <span style="color:blue">Snapshots</span>
+- The way git keeps track of your code history
+- Essentially records what all your files look like at a given point in time
+- You decide when to take a snapshot, and of what files
+- Have the ability to go back to visit any snapshot
+	- Your snapshots from later on will stay around, too
+
+## Key Concepts: <span style="color:blue">Commit</span>
+- The act of creating a snapshot
+- Can be a noun or verb
+	- “I commited code”
+	- “I just made a new commit”
+- Essentially, a project is made up of a bunch of commits
+
+## Key Concepts: <span style="color:blue">Commit</span>
+- Commits contain three pieces of information:
+
+1. Information about how the files changed from previously
+2. A reference to the commit that came before it
+	- Called the “<span style="color:blue">parent commit</span>”
+3. A <span style="color:blue">hash code</span> name
+	- Will look something like:
+		f2d2ec5069fc6776c80b3ad6b7cbde3cade4e
+
+## Key Concepts: <span style="color:blue">Repositories</span>
+- Often shortened to ‘<span style="color:blue">repo</span>’
+- A collection of all the files and the history of those files
+	- Consists of all your commits
+	- Place where all your hard work is stored
+
+## Key Concepts: <span style="color:blue">Repositories</span>
+- Can live on a local machine or on a remote server (e.g. GitHub)
+- The act of copying a repository from a remote server is called <span style="color:blue">cloning</span>
+- Cloning from a remote server allows teams to work together
+
+## Key Concepts: <span style="color:blue">Repositories</span>
+- The process of downloading commits that don’t exist on your machine from a remote repository is called <span style="color:blue">pulling</span> changes
+- The process of adding your local changes to the remote repository is called <span style="color:blue">pushing</span> changes
+
+## Key Concepts: <span style="color:blue">Branches</span>
+- All commits in git live on some branch
+- But there can be many, many branches
+- The main branch in a project is called the <span style="color:blue">master</span> branch
+
+## So, what does a typical project look like? {.smaller}
+- A bunch of commits linked together that live on some branch, contained in a repository
+![](images/git/1.png)
+
+## So, what is <span style="color:blue">HEAD</span>?
+-  A reference to the most recent commit
+    - (in most cases – not always true!)
+
+![](images/git/1.png)
+
+## So, what is <span style="color:blue">MASTER</span>?
+- The main branch in your project
+	- Doesn’t have to be called master, but almost always is
+
+![](images/git/1.png)
+
+## Branching and Merging {.smaller}
+
+- Create a new branch when making a change while not wanting to break the current state
+    - The start of a branch points to a specific commit.
+    - Can be called anything
+- Once you’re done with your change, you merge it back into master
+<div class="midcenter" style="margin-left:-320px; margin-top:-45px;">
+<img src="images/git/3.png" width="550px" />
+</div>
+
+## Key Concepts: How do you make a commit anyway?
+- There are a lot of ‘states’ and ‘places’ a file can be
+- Local on your computer: the ‘<span style="color:blue">working directory</span>’ or on another computer/server: the '<span style="color:blue">remote</span>'
+- When a file is ready to be put in a commit you put it in the ‘<span style="color:blue">staging area</span>’ ('<span style="color:blue">stage the file</span>')
+
 ## File states
 Files in your working directory can be in four different states in relation to the current commit
 ![](images/git/2.png)
@@ -134,7 +146,7 @@ Files in your working directory can be in four different states in relation to t
 ## Ok, but how do you actually do it?
 You learn linux and do it on the command line:
 
-```{r, engine='bash', eval=FALSE}
+```{bash, eval=FALSE}
 $ mkdir my_project
 $ cd my_project
 $ git init
@@ -146,14 +158,13 @@ $ git add README.md
 $ git commit -m 'Updated README.md' README.md
 ```
 
-_or a..._
+_or using a..._
 
 ## Graphical user interface
-- SourceTree
-	- or some other...
+- SourceTree (_or some other..._)
 
-<div class="midcenter" style="margin-left:-350px; margin-top:-160px;">
-<img src="images/git/sourcetree_gui.png" width="680px" />
+<div class="midcenter" style="margin-left:-320px; margin-top:-155px;">
+<img src="images/git/sourcetree_gui.png" width="650px" />
 </div>
 
 ## What is GitHub?
