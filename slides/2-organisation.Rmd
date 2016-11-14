@@ -20,4 +20,26 @@ output:
 
 ## just put them here
 
+## Suggested best-practices
+- There is a **folder for the raw data**, which do not get altered, or intermixed with data that is the result of manual or programmatic manipulation. I.e., derived data is kept separate from raw data, and **raw data is not duplicated**.
+- **Code is kept separate from data**.
+- There is a **scratch directory for experimentation**. Everything in the scratch directory can be deleted at any time without negative impact.
+- There should be a **README in every directory**, describing the purpose of the directory and its contents.
+- **Manuscript production** output is kept separate from everything else.
+- Use **non-proprietary formats** – .csv rather than .xlsx
+- Etc…
+
+## Non-proprietary formats
+- A **text-based** format is more future-safe, than a proprietary binary format by a commercial vendor
+- Never, never, never use Excel for _science_!
+- **Markdown** is a nice way of getting nice output from text.
+    - Simple & readable formating
+    - Can be converted to lots of different outputs
+        - HTML, pdf, MS Word, slides etc
+<div class="midcenter" style="margin-left: 50px; margin-top: 0px;">
+<img src="images/rmd-formats.png" width="300px" />
+</div>
+
+
+
 ## Hands-on session
