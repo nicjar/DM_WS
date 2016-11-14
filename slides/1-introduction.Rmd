@@ -76,7 +76,7 @@ You may also be required to explain how you will manage your data by your funder
 - The practice of providing on-line access to scientific information that is free of charge to the end-user and that is re-usable.
     - Does not necessarily mean unrestricted access, e.g. for sensitive personal data
 - Strong international movement towards Open Access (OA)
-- European Commission recommended the member states to establish national guidelines for OA
+- EC recommended the member states to establish national guidelines for OA
     - Swedish Research Council (VR) submitted proposal to the government last year
 <div class="midcenter" style="margin-left:200px; margin-top:-390px;">
   <img src="images/intro/OA.png" width="300px"/>
