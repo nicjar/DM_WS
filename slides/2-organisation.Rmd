@@ -15,33 +15,78 @@ output:
 ---
 
 ## Study & Analysis
-![](images/org/dlc-planning.png)
+<div class="midcenter" style="margin-left: -375px; margin-top: -210px;">
+<img src="images/org/dlc-analysis.png" width="750px" />
+</div>
 
 ## Study & Analysis
+- Principles
+    - _“Someone unfamiliar with your project should be able to look at your computer files and understand in detail what you did and why.”_
+    - _"Everything you do, you will have to do over and over again”_ 
+    – Murphy’s law
+
+
+- Structuring data for analysis
+    - Poor organizational choices lead to significantly slower research progress.
+    - It is critical to make results reproducible.
+
+<div class="midcenter" style="margin-left: 260px; margin-top: -290px;">
+<img src="images/org/sisyphus.png" width="170px" />
+</div>
+<div class="midcenter" style="margin-left: -200px; margin-top: 180px;">
+<img src="images/org/retracted.png" width="290px" />
+</div>
+<div class="midcenter" style="margin-left: 170px; margin-top: 100px;">
+<img src="images/org/miracle.png" width="195px" />
+</div>
+
 
 ## A reproducibility crisis
 - Nature special issue
+    - http://www.nature.com/news/reproducibility-1.17552 
+- Several studies have shown alarming numbers of published papers that don’t stand up to scrutiny
+<div class="midcenter" style="margin-left: -175px; margin-top: -45px;">
+<img src="images/org/reproducibility.png" width="350px" />
+</div>
 
-## Organisation - So far, so good…
+## Organisation - _So far, so good…_
+<div class="midcenter" style="margin-left: -400px; margin-top: -210px;">
+<img src="images/org/org1.png" width="800px" />
+</div>
 
-## Now what?
+## _Now what?_
+<div class="midcenter" style="margin-left: -400px; margin-top: -210px;">
+<img src="images/org/org2.png" width="800px" />
+</div>
 
-## I guess this is alright
+## _I guess this is alright...
+<div class="midcenter" style="margin-left: -400px; margin-top: -210px;">
+<img src="images/org/org3.png" width="800px" />
+</div>
 
-## Which one is the most recent?
+## _Which one is the most recent?_
+<div class="midcenter" style="margin-left: -400px; margin-top: -210px;">
+<img src="images/org/org4.png" width="800px" />
+</div>
 
 ## Another (bad) common approach
+<div class="midcenter" style="margin-left: -400px; margin-top: -210px;">
+<img src="images/org/org5.png" width="800px" />
+</div>
 
 ## A possible solution
+<div class="midcenter" style="margin-left: -400px; margin-top: -210px;">
+<img src="images/org/org6.png" width="800px" />
+</div>
 
 ## Still missing something
-- Need context **=>** document **metadata**
+- Need context **=>** document **metadata**
     - How was the data generated?
     - From what was the data generated?
     - What where the (experimental) conditions?
-    - Etc
+    - Etc, etc, ...
 
-## Suggested best-practices
+## Some suggested best-practices
 - There is a **folder for the raw data**, which do not get altered, or intermixed with data that is the result of manual or programmatic manipulation. I.e., derived data is kept separate from raw data, and **raw data is not duplicated**.
 - **Code is kept separate from data**.
 - There is a **scratch directory for experimentation**. Everything in the scratch directory can be deleted at any time without negative impact.
@@ -58,10 +103,16 @@ output:
     - Can be converted to lots of different outputs
         - HTML, pdf, MS Word, slides etc
 <div class="midcenter" style="margin-left: 50px; margin-top: 0px;">
-<img src="images/rmd-formats.png" width="300px" />
+<img src="images/org/rmd-formats.png" width="300px" />
 </div>
 
-## Directory structure for a sample project
+## Directory structure {.smaller}
+Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLoS Comput Biol 5(7): e1000424. [doi:10.1371/journal.pcbi.1000424](http://journals.plos.org/ploscompbiol/article?id=info:doi/10.1371/journal.pcbi.1000424)
+
+
+<div class="midcenter" style="margin-left: -380px; margin-top: -140px;">
+<img src="images/org/noble-struct.png" width="780px" />
+</div>
 
 ## Or like this… {.smaller}
 ~~~~
@@ -85,7 +136,7 @@ output:
 └── src  <---------------# Project-wide source code (that needs to be compiled)
 ~~~~
 
-From Samuel Lampa’s blog: http://bionics.it/posts/organizing-compbio-projects
+_From Samuel Lampa’s blog: http://bionics.it/posts/organizing-compbio-projects_
 
 
 ## Project organization
