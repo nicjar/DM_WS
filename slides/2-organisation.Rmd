@@ -148,7 +148,7 @@ _From Samuel Lampa’s blog: http://bionics.it/posts/organizing-compbio-projects
         - …
 - **Communicate** structure to collaborators
 - **Document** as you go
-- Done well, it might reduce post-project explaining
+- _Done well, it should reduce post-project explaining_
 
 <div class="midcenter" style="margin-left: 180px; margin-top: 40px;">
 <img src="images/org/explain-again.png" width="240px" />
