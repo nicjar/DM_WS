@@ -49,12 +49,25 @@ output:
 <img src="images/osf/4-new-comp-category.png" width="370px" />
 </div>
 
+## Component
+<div class="midcenter" style="margin-left: -375px; margin-top: -225px;">
+<img src="images/osf/5-comp.png" width="750px" />
+</div>
+
 ## Add-ons
+- Files etc stored by other third-party tools can be connected to a component
+<div class="midcenter" style="margin-left: -300px; margin-top: -130px;">
+<img src="images/osf/6a-comp-addons.png" width="600px" />
+</div>
 
 ## Configure Add-on accounts
 <div class="midcenter" style="margin-left: -300px; margin-top: -225px;">
 <img src="images/osf/6-addons.png" width="600px" />
 </div>
 
+## Connect addon resources
+<div class="midcenter" style="margin-left: -300px; margin-top: -225px;">
+<img src="images/osf/7-addon-connect.png" width="600px" />
+</div>
 
-## Hands-on session
+# Hands-on session
