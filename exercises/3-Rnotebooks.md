@@ -33,7 +33,8 @@ Use a data file of your own, or this example dataset: [bryceveg.R](http://ecolog
 #### :computer: Add code to notebook to read in the dataset
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
-* Add something like this to the notebook:
+* To get code to execute you add a chunk of code (_Choose Code -> Insert Chunk_ if you don't want to type so much)
+* Add a chunk like this to the notebook (of course depending on how you've named and organized your files):
 
 ~~~~~~
 ```{r}
@@ -71,6 +72,8 @@ spc_pres<-apply(veg>0,2,sum)
 plot(sort(spc_pres))
 ```
 ~~~~~~
+
+* Example code taken from http://ecology.msu.montana.edu/labdsv/R/labs/lab1/lab1.html#Introduction
 </details>
 <br />
 
