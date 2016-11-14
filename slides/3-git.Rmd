@@ -43,7 +43,7 @@ output:
 
 ## How does git work?
 - Can be complicated at first, but there are a few key concepts
-- Important git terminology in following slides are blue
+- Important git terminology in following slides are <span style="color:blue">blue</span>
 
 ## Key Concepts: Snapshots
 - The way git keeps track of your code history
