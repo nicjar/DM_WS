@@ -14,6 +14,12 @@ output:
     logo: images/logo.png
 ---
 
+----
+<div class="midcenter" style="margin-left: -450px; margin-top: -320px;">
+<img src="images/nbis.png" width="900px" />
+</div>
+
+
 ## Caveat {.flexbox .vcenter}
 
 <b>You are guinea pigs!</b>
@@ -86,7 +92,6 @@ You may also be required to explain how you will manage your data by your funder
 
 ## Why Open Access {.smaller}
 
-
 - Democracy and transparency
     - Publicly funded research data should be accessible to all
     - Published results and conclusions should be possible to check by others
@@ -100,3 +105,33 @@ You may also be required to explain how you will manage your data by your funder
 <div class="midcenter" style="margin-left:160px; margin-top:-350px;">
 <img src="images/why_OA.png" width="325px" />
 </div>
+
+## Data loss
+
+## Data persistency issues
+
+## The Research Data Life Cycle
+
+## Planning & Design
+
+<div class="midcenter" style="margin-left: -375px; margin-top: -250px;">
+<img src="images/dlc-planning.png" width="750px" />
+</div>
+
+## Planning & Design {.smaller}
+- Data Management planning
+    - Data types
+        - Sizes, were to store, etc
+    - **Metadata**
+        - Use standards!
+            - _But not always straight-forward..._ 
+            - (http://www.dcc.ac.uk/resources/metadata-standards/disciplinary/ecology)
+
+- **Data Management Plans**
+    - Will become a standard part of the research funding application process 
+    - What will be collected?, Organized?, Documented?, Stored and preserved?, Disseminated?, Policies?, Budget?
+
+## Source acknowledgements
+- Research Data Management, EUDAT - http://hdl.handle.net/11304/79db27e2-c12a-11e5-9bb4-2b0aad496318
+- Barend Mons – FAIR Data
+
