@@ -57,9 +57,9 @@ http://dx.doi.org/10.1038/sdata.2016.18
 - Domain-specific metadata standards
 - Not always straight-forward for users
 
-- Ecology data repositories?
-    - [Knowledge Network for Biocomplexity (KNB)](http://knb.ecoinformatics.org/index.jsp)?
-    - [LTER (Long Term Ecological Research) Data Portal](https://portal.lternet.edu/nis/home.jsp)?
+- _Ecology data repositories?_
+    - [_Knowledge Network for Biocomplexity (KNB)_](http://knb.ecoinformatics.org/index.jsp)?
+    - [_LTER (Long Term Ecological Research) Data Portal_](https://portal.lternet.edu/nis/home.jsp)?
     - other?
 
 ## “Long-tail data” repositories
