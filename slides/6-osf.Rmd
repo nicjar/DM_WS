@@ -75,5 +75,9 @@ output:
 <img src="images/osf/8-comp-with-addon.png" width="600px" />
 </div>
 
+## Persistent ID & License
+<div class="midcenter" style="margin-left: -300px; margin-top: -225px;">
+<img src="images/osf/9-pid.png" width="600px" />
+</div>
 
 # Hands-on session
