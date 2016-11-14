@@ -16,7 +16,7 @@ output:
 
 ----
 <div class="midcenter" style="margin-left: -450px; margin-top: -320px;">
-<img src="images/nbis.png" width="900px" />
+<img src="images/intro/nbis.png" width="900px" />
 </div>
 
 
@@ -56,7 +56,7 @@ output:
 
 Well-managed data opens up opportunities for re-use, integration and new science
 <div class="midcenter" style="margin-left:210px; margin-top:-230px;">
-  <img src="images/graveyard.png" width="230px"/>
+  <img src="images/intro/graveyard.png" width="230px"/>
 </div>
 
 <div class="notes">
@@ -79,13 +79,13 @@ You may also be required to explain how you will manage your data by your funder
 - European Commission recommended the member states to establish national guidelines for OA
     - Swedish Research Council (VR) submitted proposal to the government last year
 <div class="midcenter" style="margin-left:200px; margin-top:-390px;">
-  <img src="images/OA.png" width="300px"/>
+  <img src="images/intro/OA.png" width="300px"/>
 </div>
 <div class="midcenter" style="margin-left:85px; margin-top:-115px;">
-  <img src="images/G8_Open Access.png" width="240px" />
+  <img src="images/intro/G8_Open Access.png" width="240px" />
 </div>
 <div class="midcenter" style="margin-left:100px; margin-top:60px;">
-  <img src="images/VR_Open Access.png" width="200px" />
+  <img src="images/intro/VR_Open Access.png" width="200px" />
 </div>
 
 </div>
@@ -103,19 +103,43 @@ You may also be required to explain how you will manage your data by your funder
 - Citation
     - Citation of data will be a merit for the researcher that produced it
 <div class="midcenter" style="margin-left:160px; margin-top:-350px;">
-<img src="images/why_OA.png" width="325px" />
+<img src="images/intro/why_OA.png" width="325px" />
 </div>
 
-## Data loss
+## Data loss {.smaller}
+<div class="midcenter" style="margin-left:-400px; margin-top:-230px;">
+<img src="images/intro/missing_data.png" width="450px" />
+</div>
+<div class="midcenter" style="margin-left:110px; margin-top:70px;">
+<img src="images/intro/oops.png" width="300px" />
+</div>
+
+_Slide stolen from Barend Mons_
 
 ## Data persistency issues
+<div class="midcenter" style="margin-left:-400px; margin-top:-230px;">
+<img src="images/intro/url-decay.png" width="375px" />
+</div>
+
+<div class="midcenter" style="margin-left:65px; margin-top:-210px;">
+<img src="images/intro/rot.png" width="375px" />
+</div>
+
+<div class="notes">
+Several studies have also shown issues with data persistence. This graph shows how many broken links there are in a selection of MEDLINE papers. The further back you go, the higher the percentage, and worryingly, the highest percentage is for the most recent papers (abstracts from 2007).
+
+Another issue that occurs is reference rot, where the link still resolves, but the content presented no longer reflects the original content cited as the webpage has been updated.
+</div>
 
 ## The Research Data Life Cycle
+<div class="midcenter" style="margin-left: -375px; margin-top: -190px;">
+<img src="images/intro/dlc.png" width="750px" />
+</div>
 
 ## Planning & Design
 
 <div class="midcenter" style="margin-left: -375px; margin-top: -250px;">
-<img src="images/dlc-planning.png" width="750px" />
+<img src="images/intro/dlc-planning.png" width="750px" />
 </div>
 
 ## Planning & Design {.smaller}
@@ -130,6 +154,11 @@ You may also be required to explain how you will manage your data by your funder
 - **Data Management Plans**
     - Will become a standard part of the research funding application process 
     - What will be collected?, Organized?, Documented?, Stored and preserved?, Disseminated?, Policies?, Budget?
+
+<div class="midcenter" style="margin-left: 120px; margin-top: -250px;">
+<img src="images/intro/planning.png" width="280px" />
+</div>
+
 
 ## Source acknowledgements
 - Research Data Management, EUDAT - http://hdl.handle.net/11304/79db27e2-c12a-11e5-9bb4-2b0aad496318
