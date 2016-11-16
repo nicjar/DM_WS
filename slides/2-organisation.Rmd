@@ -59,7 +59,7 @@ output:
 <img src="images/org/org2.png" width="800px" />
 </div>
 
-## _I guess this is alright...
+## _I guess this is alright..._
 <div class="midcenter" style="margin-left: -400px; margin-top: -210px;">
 <img src="images/org/org3.png" width="800px" />
 </div>
@@ -85,6 +85,9 @@ output:
     - From what was the data generated?
     - What where the (experimental) conditions?
     - Etc, etc, ...
+- Use research domain standards
+- Use a structured format
+    - _machine-readable if possible_
 
 ## Some suggested best-practices
 - There is a **folder for the raw data**, which do not get altered, or intermixed with data that is the result of manual or programmatic manipulation. I.e., derived data is kept separate from raw data, and **raw data is not duplicated**.
