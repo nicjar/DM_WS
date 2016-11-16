@@ -63,7 +63,7 @@ For example, this could be a dataset file that you don't want to make public yet
 
 ## Working with a GitHub remote repository
 
-#### :computer: Create a new repository on [GitHub](https://github.com)
+#### :computer: :octocat: Create a new repository on [GitHub](https://github.com)
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
 * Go to GitHub, and log in to your account
@@ -90,7 +90,7 @@ For example, this could be a dataset file that you don't want to make public yet
 </details>
 <br />
 
-#### :computer: Make a change to your repository locally, e.g. by modifying or adding a file. Commit your changes to both the local and remote repositories
+#### :computer: :octocat: Make a change to your repository locally, e.g. by modifying or adding a file. Commit your changes to both the local and remote repositories
 <details markdown="1">
 <summary>:key: Click to see hints</summary>
 * After changing some file, stage the file as usual.
@@ -98,7 +98,7 @@ For example, this could be a dataset file that you don't want to make public yet
 </details>
 <br />
 
-#### :computer: Make a release of your repository on GitHub
+#### :computer: :octocat: Make a release of your repository on GitHub
 This makes it easy for others to download the repository. You can use it yourself if you arrive at a directory structure that you want to reuse.
 
 <details markdown="1">
