@@ -26,7 +26,7 @@ Well-managed data opens up opportunities for re-use, integration and new science
   <img src="images/intro/graveyard.png" width="230px"/>
 </div>
 
-<div class="notes">
+Note:
 There are lots of reasons to manage research data. Ultimately though, it’s to make your research easier.
 
 If data are properly documented and organised, you can stop yourself drowning in irrelevant stuff and find the data when you need it – for example to validate findings.
@@ -34,10 +34,10 @@ If data are properly documented and organised, you can stop yourself drowning in
 By managing your data you can also more easily share it with others to get more credit and impact.
 
 You may also be required to explain how you will manage your data by your funder or university.
-</div>
 
+---
 
-## Open Access to research data {.smaller}
+## Open Access to research data
 
 <!-- <div class="columns-2"> -->
 - The practice of providing on-line access to scientific information that is free of charge to the end-user and that is re-usable.
@@ -55,7 +55,7 @@ You may also be required to explain how you will manage your data by your funder
   <img src="images/intro/VR_Open Access.png" width="200px" />
 </div>
 
-<!-- </div> -->
+---
 
 ## Why Open Access {.smaller}
 
@@ -73,6 +73,8 @@ You may also be required to explain how you will manage your data by your funder
 <img src="images/intro/why_OA.png" width="325px" />
 </div>
 
+---
+
 ## Data loss {.smaller}
 <div class="midcenter" style="margin-left:-400px; margin-top:-230px;">
 <img src="images/intro/missing_data.png" width="450px" />
@@ -82,6 +84,8 @@ You may also be required to explain how you will manage your data by your funder
 </div>
 
 _Slide stolen from Barend Mons_
+
+---
 
 ## Data persistency issues
 <div class="midcenter" style="margin-left:-400px; margin-top:-230px;">
