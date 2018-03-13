@@ -6,7 +6,8 @@ NBIS
 
 Niclas Jareborg
 
-----
+---
+
 <div class="midcenter" style="margin-left: -450px; margin-top: -320px;">
 <img src="images/intro/nbis.png" width="900px" />
 </div>
