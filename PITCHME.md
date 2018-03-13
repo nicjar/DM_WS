@@ -8,34 +8,8 @@ Niclas Jareborg
 
 ---
 
-<div class="midcenter" style="margin-left: -450px; margin-top: -320px;">
-<img src="images/intro/nbis.png" width="900px" />
-</div>
-
-
-## Caveat
-
-<b>You are guinea pigs!</b>
----
-## The day
-
-- Introduction to data management
-- File organisation best-practices
-    - <em>Hands-on session</em>
-- Version control — introduction to git and GitHub
-    - <em>Hands-on session</em>
-
-<div class="centered">
--- <b><em>Lunch</em></b> --
-</div>
-
-- Notebooks - R notebook
-    - <em>Hands-on session</em>
-- Data publishing
-- Collaborative environments
-    - <em>Hands-on session</em>
----
 # Introduction to Data Management
+
 ---
 ## Why manage research data?
 
