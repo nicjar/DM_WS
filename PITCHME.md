@@ -15,7 +15,7 @@ Niclas Jareborg
 ## Caveat {.flexbox .vcenter}
 
 <b>You are guinea pigs!</b>
-
+---
 ## The day {.smaller}
 
 - Introduction to data management
@@ -33,9 +33,9 @@ Niclas Jareborg
 - Data publishing
 - Collaborative environments
     - <em>Hands-on session</em>
-
+---
 # Introduction to Data Management {.smaller}
-
+---
 ## Why manage research data?
 
 * To make your research easier!
