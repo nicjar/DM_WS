@@ -12,11 +12,11 @@ Niclas Jareborg
 </div>
 
 
-## Caveat {.flexbox .vcenter}
+## Caveat
 
 <b>You are guinea pigs!</b>
 ---
-## The day {.smaller}
+## The day
 
 - Introduction to data management
 - File organisation best-practices
@@ -34,7 +34,7 @@ Niclas Jareborg
 - Collaborative environments
     - <em>Hands-on session</em>
 ---
-# Introduction to Data Management {.smaller}
+# Introduction to Data Management
 ---
 ## Why manage research data?
 
